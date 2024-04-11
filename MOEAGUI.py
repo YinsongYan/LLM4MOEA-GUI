@@ -75,6 +75,9 @@ if __name__ == '__main__':
     n_gen = col1.number_input("Number of Generation", min_value=1, value=2)
     dimension = col2.number_input("Dimension of the individual", min_value=1, value=4)
 
+    st.write(f"The current number of generations is: {n_gen}")
+    st.write(f"The current Dimension of the individual is: {dimension}")
+    
     pop_size = 50
     neighbor_size = 10
     # n_gen = 3
