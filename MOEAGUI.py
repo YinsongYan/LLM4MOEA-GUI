@@ -66,7 +66,8 @@ if __name__ == '__main__':
     record_gpt_solution = True  # record the input and oupt of each run of gpt to learn a general linear operator
     model_LLM = "gpt-3.5-turbo"  # "model": "gpt-3.5-turbo",
     # "model": "gpt-4-0613",
-    key = "fk225608-1rtTkwE6GRDI37PKBwLxd4Bmsu4f4j98"  # your key
+    key = st.secrets["mykey"]
+    
     debug_mode = False
 
 
